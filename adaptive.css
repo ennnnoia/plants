@@ -153,6 +153,55 @@
         max-width: 110px;
     }
     
+    /*sec3*/
+    .fle3{ 
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .block-img3{
+        margin-right: 50px;
+    }
+    .block-text3 h1{
+    font-size: 13px;
+    margin-bottom: 8px;
+    }
+    .block-text3 h2{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 24px;
+    }
+    .block-text3 p{
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 16px;
+    }
+.block-text3 h3{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+color: #4A4A4A;
+}
+.btn3{
+    cursor: pointer;
+    padding: 16px 32px;
+    gap: 10px;
+    width: 155px;
+    height: 55px;
+    background: #066F14;
+    border-radius: 4px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+margin-top: 36px;
+}
+
+
     .fle4{
         flex-wrap: wrap;
     }

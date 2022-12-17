@@ -246,7 +246,10 @@ color: #4A4A4A;
 }
 .block-img3{
     margin-right: 140px;
-    width: 516px;
+    width: 47%;
+}
+.block-text3 {
+    width: 53%;
 }
 .block-text3 h1{
     font-family: 'DM Sans';
