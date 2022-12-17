@@ -79,6 +79,11 @@
     padding: 8px 12px;
     font-size: 12px;
     }
+
+    /*sec1*/
+    .fle1{
+        min-height: 500px;
+    }
     .block-text{
         margin-top: 10px;
         max-width: 100%;
@@ -89,26 +94,28 @@
         margin-bottom: 10px;
     }
     .block-text p{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     }
     .btn1 {
         font-size: 15px;
     margin-top: 20px;
-    padding: 10px 32px;
-    width: 150px;
+    padding: 10px 10px;
+    width: 120px;
     height: 40px;
     margin-bottom: 20px;
     }
     .flex-44{
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
     .flex-txt44{
-        margin-right: 11px;
+        margin-right: 15px;
     }
     .flex-txt44 h3{
-        font-size: 25px;
+        font-size: 23px;
     }
     .flex-txt44 p{
     font-size: 15px;
@@ -116,9 +123,35 @@
     
     .block-img{
         width: 30%;
-        margin-left: 11px;
+        margin-left: 0px;
     }
     
+
+    /*sec2*/
+    .fle2{
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    .block-text2{
+        margin-right: 0px;
+    }
+    .block-text2 h2{
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .block-text2 p{
+    font-size: 14px;
+    }
+    .block-text2 img{
+        margin-left: 9px;
+    }
+    .block-img2 img{
+        margin-right: 10px;
+        max-width: 110px;
+    }
     
     .fle4{
         flex-wrap: wrap;
