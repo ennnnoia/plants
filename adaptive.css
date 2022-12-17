@@ -156,11 +156,12 @@
     /*sec3*/
     .fle3{ 
         flex-direction: column;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .block-img3{
         margin-right: 50px;
     }
+    
     .block-text3 h1{
     font-size: 13px;
     margin-bottom: 8px;
@@ -185,7 +186,67 @@
         height: 40px;
         font-size: 14px;
         margin-top: 20px;
-}
+    }
+    
+    
+    /*sec4*/
+    .block-text4 h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    }
+    .bl-text4{
+        display: flex;
+        justify-content: center;
+        width: 268px;
+        margin: 48px auto;
+    }
+    .bl-text4 h5{
+    font-size: 18px;
+    margin-right: 24px;
+    }
+    .bl-text4 p{
+    font-size: 16px;
+    line-height: 21px;
+    margin-right: 24px;
+    }
+    }
+    .kart1{
+        width: 215px;
+        height: 225px;
+    }
+    .kart2{
+        width: 215px;
+        height: 225px;
+    }
+    .kart3{
+        width: 215px;
+        height: 225px;
+    }
+    .kart4{
+        width: 215px;
+        height: 225px;
+    }
+    .r{
+        width: 110px;
+        height: 123px;
+        margin-bottom: 3px;
+    }
+    .fle4 p{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .fle4 h5{
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .btn4{
+        padding: 10px 10px;
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
 
 
     .fle4{
