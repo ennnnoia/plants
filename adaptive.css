@@ -1,0 +1,166 @@
+@media screen and (max-width: 1024px) {
+    .block-text{
+        margin-top: 50px;
+    }
+    .block-text h2{
+        font-size: 56px;
+        line-height: 60px;
+    }
+    .btn1 {
+        font-size: 16px;   
+        margin-top: 30px;
+        padding: 14px 20px;
+        width: 140px;
+        height: 50px;
+        margin-bottom: 40px;
+    }
+    .flex-txt44{
+        margin-right: 10px;
+    }
+    .flex-txt44 h3{
+        font-size: 30px;
+    }
+    .flex-txt44 p{
+    font-size: 16px;
+    }
+    .navbar-list a{
+        margin-right: 50px;
+        font-size: 15px;
+    }
+
+
+    .fle4{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .fle1{
+        flex-direction: column;
+    }
+    #tvar{
+        width: 200px;
+    }
+    .navbar{
+        min-height: 100px;
+    }
+    .navbar-logo{
+    font-size: 20px;
+    }
+    
+    .navbar-list a{
+    margin-right: 30px;
+    font-size: 15px;
+    }
+    .navbar-list a:hover{
+        font-size: 20px;
+    }
+    button{
+        cursor: pointer;
+    padding: 8px 12px;
+    font-size: 12px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .navbar{
+        min-height: 90px;
+    }
+    .navbar-logo{
+    font-size: 20px;
+    }
+    
+    button{
+    padding: 8px 12px;
+    font-size: 12px;
+    }
+    .block-text{
+        margin-top: 10px;
+        max-width: 100%;
+    }
+    .block-text h2{
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .block-text p{
+    font-size: 16px;
+    line-height: 20px;
+    }
+    .btn1 {
+        font-size: 15px;
+    margin-top: 20px;
+    padding: 10px 32px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 20px;
+    }
+    .flex-44{
+        display: flex;
+        flex-direction: row;
+    }
+    .flex-txt44{
+        margin-right: 11px;
+    }
+    .flex-txt44 h3{
+        font-size: 25px;
+    }
+    .flex-txt44 p{
+    font-size: 15px;
+    }
+    
+    .block-img{
+        width: 30%;
+        margin-left: 11px;
+    }
+    
+    
+    .fle4{
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 320px){
+    .block-text{
+        max-width: 100%;
+    }
+    .block-text h2{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .block-text p{
+        font-size: 10px;
+    }
+    .btn1 {
+        font-size: 10px;   
+        margin-top: 10px;
+        padding: 10px 10px;
+        width: 80px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    .flex-txt44{
+        margin-right: 7px;
+    }
+    .flex-txt44 h3{
+        font-size: 20px;
+    }
+    .flex-txt44 p{
+    font-size: 10px;
+    }
+    .navbar-list a{
+        margin-right: 30px;
+        font-size: 10px;
+    }
+
+}
