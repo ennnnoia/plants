@@ -199,59 +199,114 @@
         display: flex;
         justify-content: center;
         width: 268px;
-        margin: 48px auto;
+        margin: 10px auto;
     }
     .bl-text4 h5{
-    font-size: 18px;
+    font-size: 16px;
     margin-right: 24px;
     }
     .bl-text4 p{
-    font-size: 16px;
-    line-height: 21px;
+    font-size: 15px;
+    line-height: 18px;
     margin-right: 24px;
     }
     .kart1{
-        width: 215px;
-        height: 225px;
+        width: 170px;
+        height: 180px;
     }
     .kart2{
-        width: 215px;
-        height: 225px;
+        width: 170px;
+        height: 180px;
     }
     .kart3{
-        width: 215px;
-        height: 225px;
+        width: 170px;
+        height: 180px;
     }
     .kart4{
-        width: 215px;
-        height: 225px;
+        width: 170px;
+        height: 180px;
     }
     .r{
-        width: 110px;
-        height: 123px;
+        width: 80px;
+        height: 93px;
         margin-bottom: 3px;
     }
     .fle4 p{
-        font-size: 18px;
-        margin-bottom: 5px;
+        font-size: 15px;
+        margin-bottom: 0px;
     }
     .fle4 h5{
-        font-size: 13px;
-        margin-top: 5px;
+        font-size: 11px;
+        margin-top: 3px;
     }
     .btn4{
-        padding: 10px 10px;
-        width: 120px;
+        padding: 8px 10px;
+        width: 110px;
         height: 40px;
         font-size: 14px;
-        margin-top: 20px;
+        margin-top: 15px;
+    }
+    
+
+
+    /*section5*/
+    .fle5{
+        flex-direction: column;
+        min-height: 930px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .fle55{
+        flex-direction: column;
+        width: 55%;
+    }
+    .block-text5 h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .block-text5 p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
     }
 
-
-
-    .fle4{
-        flex-wrap: wrap;
+    .fle555{
+        flex-direction: column;
+        height: 130px;
+        padding-left: 16px;
+        padding-right: 12px;
+        padding-top: 7px;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
     }
+.fle5555{
+    display: flex;
+    flex-direction: row;
+}
+.block-img55{
+    width: 40px;
+height: 40px;
+}
+.block-text55{
+    margin-left: 8px;
+}
+.block-text55 h5{
+font-size: 16px;
+margin-top: 5.5px;
+}
+.block-text55 p{
+font-size: 13px;
+margin-top: 6px;
+}
+.bl-text5 p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 18px;
+}
+.block-img5{
+    width: 45%;
+    margin-left: 0px;
+}
 
 
 }
