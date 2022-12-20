@@ -1,3 +1,17 @@
+@media screen and (max-width: 1126px) {
+    #neadaptirovan{
+        display: none;
+    }
+    #durachok{
+        display: none;
+    }
+    #mm{
+        display: none;
+    }
+}
+
+
+
 @media screen and (max-width: 1024px) {
     .block-text{
         margin-top: 50px;
@@ -27,6 +41,7 @@
         margin-right: 50px;
         font-size: 15px;
     }
+   
 
 
     .fle4{
@@ -63,6 +78,33 @@
     font-size: 12px;
     }
     
+
+        /*sec2*/
+    .fle2{
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .block-text2{
+        margin-right: 0px;
+    }
+    .block-text2 h2{
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+    .block-text2 p{
+    font-size: 25px;
+    margin-bottom: 20px;
+    }
+    .block-text2 img{
+        margin-left: 15px;
+    }
+    .block-img2 img{
+        margin-right: 7px;
+        max-width: 200px;
+    }
 }
 
 
@@ -121,21 +163,20 @@
     font-size: 15px;
     }
     
+    #tvar{
+        display: none;
+        width: 0px;
+    }
     .block-img{
-        width: 30%;
         margin-left: 0px;
+        margin-bottom: 0px;
     }
     
 
     /*sec2*/
     .fle2{
-        flex-direction: column;
-        justify-content: space-between;
         margin-bottom: 20px;
         margin-top: 10px;
-    }
-    .block-text2{
-        margin-right: 0px;
     }
     .block-text2 h2{
         font-size: 30px;
