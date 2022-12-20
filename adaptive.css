@@ -13,6 +13,17 @@
 
 
 @media screen and (max-width: 1024px) {
+    .navbar-logo{
+        font-size: 20px;
+        }
+        
+        .navbar-list a{
+        margin-right: 30px;
+        font-size: 15px;
+        }
+        .navbar-list a:hover{
+            font-size: 20px;
+        }
     .block-text{
         margin-top: 50px;
     }
@@ -55,17 +66,7 @@
     .navbar{
         min-height: 100px;
     }
-    .navbar-logo{
-    font-size: 20px;
-    }
     
-    .navbar-list a{
-    margin-right: 30px;
-    font-size: 15px;
-    }
-    .navbar-list a:hover{
-        font-size: 20px;
-    }
     button{
         cursor: pointer;
     padding: 8px 12px;
@@ -95,6 +96,12 @@
     }
     .block-img{
         margin-left: 20px;
+    }
+    .flex-44{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
     /*sec2*/
@@ -307,7 +314,6 @@ margin-bottom: 22px;
     .navbar-logo{
     font-size: 20px;
     }
-    
     button{
     padding: 8px 12px;
     font-size: 12px;
@@ -315,7 +321,7 @@ margin-bottom: 22px;
 
     /*sec1*/
     .fle1{
-        min-height: 500px;
+        min-height: 350px;
     }
     .block-text{
         margin-top: 10px;
@@ -338,14 +344,9 @@ margin-bottom: 22px;
     height: 40px;
     margin-bottom: 20px;
     }
-    .flex-44{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
+    
     .flex-txt44{
-        margin-right: 15px;
+        margin-right: 20px;
     }
     .flex-txt44 h3{
         font-size: 23px;
@@ -359,6 +360,7 @@ margin-bottom: 22px;
         width: 0px;
     }
     .block-img{
+        width: 0%;
         margin-left: 0px;
         margin-bottom: 0px;
     }
