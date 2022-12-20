@@ -5,9 +5,6 @@
     #durachok{
         display: none;
     }
-    /*#mm{
-        display: none;
-    }*/
 }
 
 
@@ -344,7 +341,6 @@ margin-bottom: 22px;
     height: 40px;
     margin-bottom: 20px;
     }
-    
     .flex-txt44{
         margin-right: 20px;
     }
@@ -364,11 +360,14 @@ margin-bottom: 22px;
         margin-left: 0px;
         margin-bottom: 0px;
     }
-    
 
     /*sec2*/
     .fle2{
         margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .block-text2{
+        width: 100%;
         margin-top: 10px;
     }
     .block-text2 h2{
@@ -395,7 +394,6 @@ margin-bottom: 22px;
     .block-img3{
         margin-right: 50px;
     }
-    
     .block-text3 h1{
     font-size: 13px;
     margin-bottom: 8px;
@@ -422,7 +420,6 @@ margin-bottom: 22px;
         font-size: 14px;
         margin-top: 20px;
     }
-    
     
     /*sec4*/
     .block-text4 h2{
@@ -480,19 +477,14 @@ margin-bottom: 22px;
         font-size: 14px;
         margin-top: 15px;
     }
-    
-
 
     /*sec5*/
     .fle5{
-        flex-direction: column;
-        min-height: 930px;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
         margin-top: 30px;
         margin-bottom: 0px;
-    }
-    .fle55{
-        flex-direction: column;
-        width: 55%;
     }
     .block-text5 h1{
         font-size: 30px;
@@ -534,49 +526,45 @@ margin-bottom: 22px;
         margin-top: 18px;
     }
     .block-img5{
-        width: 45%;
         margin-left: 0px;
+    }
+    #mm{
+        display: none;
     }
 
 
     /*seс6*/
     .e6{
-        width: 430px;
-        height: 356px;
-        flex-direction: row;
-        margin: 0 auto;
+        width: 360px;
+        height: 240px;
     }
     .fon{
-        padding-top: 1px;
-        height: 280px;
-        width: 355px;
+        height: 220px;
+        width: 360px;
     }
     .fle6{
-        display: flex;
-        flex-direction: column;
         width: 320px;
-        height: 150px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 0px;
+        height: 240px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
     }
     .block-text6 h1{
-        font-size: 30px;
-        line-height: 30px;
+        font-size: 25px;
+        line-height: 25px;
         margin-bottom: 10px;
     }
     .block-text6 p{
         font-size: 14px;
         line-height: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
     .img-abs{
         display: none;
     }
     .input{
         padding: 5px 5px 5px 15px;
-        gap: 10px;
-        min-width: 320px;
+        min-width: 300px;
         min-height: 40px;
         font-size: 14px;
     }
@@ -595,16 +583,13 @@ margin-bottom: 22px;
         height: 40px;
     }
 
-
-
     /*sec7*/
     .fle7{
         margin-top: 30px;
         margin-bottom: 50px;
     }
     .block-text7{
-        width: 425px;
-        margin: 0 auto;
+        width: 360px;
     }
     .block-text7 h1{
         font-size: 30px;
