@@ -765,6 +765,10 @@ margin-bottom: 22px;
     height: 48px;
     margin-right: 16px;
 }
+.fle-nav{
+    display: flex;
+    flex-direction: row;
+}
 .fle82{
     display: flex;
     flex-direction: column;

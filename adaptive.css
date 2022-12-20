@@ -107,13 +107,13 @@
         width: 930px;
     }
     .fle81{
-        margin-right: 140px;
+        margin-right: 100px;
     }
     .fle82{
-        margin-right: 100px;
+        margin-right: 75px;
     }
     .fle83{
-        margin-right: 100px;
+        margin-right: 65px;
     }
 }
 
@@ -162,7 +162,7 @@
     .fle2{
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
         margin-top: 20px;
     }
     .block-text2{
@@ -234,18 +234,20 @@
         margin-bottom: 30px;
     }
     .fle55{
-        display: flex;
-        flex-direction: column;
+        width: 90%;
     }
     .fle555{
         display: flex;
         flex-direction: column;
-        height: 180px;
+        height: 185px;
         padding-left: 31px;
         padding-right: 27px;
         padding-top: 18px;
         padding-bottom: 20px;
         margin-bottom: 20px;
+    }
+    .block-img5{
+        width: 80%;
     }
    
     /*section6*/
@@ -290,68 +292,31 @@
 
     /*sec8*/
     .fle8{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 112px;
-    justify-content: space-between;
-}
-.fle81{
-    display: flex;
-    flex-direction: column;
+        width: 700px;
+    }
+    .fle-nav{
+        flex-direction: column;
+        margin-right: 80px;
+    }
+    .fle-nav p{
+        display: none;
+        margin-right: 100px;
+    }
+    .fle81{
     width: 308px;
-    margin-right: 201px;
-}
-.fle8 h1{
-    font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 31px;
-color: #1A1A1A;
-margin-bottom: 24px;
-}
-.fle8 p{
-    font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 21px;
-/* identical to box height */
-color: #5A5A5A;
-margin-bottom: 16px;
-}
-.fle81 p{
-    font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 160%;
-/* or 26px */
-color: #5A5A5A;
-margin-bottom: 22px;
-}
-.fle-img img{
-    width: 48px;
-    height: 48px;
-    margin-right: 16px;
-}
-.fle82{
-    display: flex;
-    flex-direction: column;
-    width: 124px;
-    margin-right: 128px;
-}
-.fle83{
-    display: flex;
-    flex-direction: column;
-    width: 107px;
-    margin-right: 128px;
-}
-.fle84{
-    display: flex;
-    flex-direction: column;
-    width: 158px;
-}
+    margin-right: 112px;
+    }
+    .fle82{
+        width: 124px;
+        margin-right: 0px;
+    }
+    .fle83{
+        width: 107px;
+        margin-right: 0px;
+    }
+    .fle84{
+        width: 100px;
+    }
     
 }
 
@@ -416,8 +381,8 @@ margin-bottom: 22px;
 
     /*sec2*/
     .fle2{
-        margin-bottom: 20px;
-        margin-top: 10px;
+        margin-bottom: 0px;
+        margin-top: 30px;
     }
     .block-text2{
         width: 100%;
@@ -443,9 +408,7 @@ margin-bottom: 22px;
     .fle3{ 
         flex-direction: column;
         margin-bottom: 30px;
-    }
-    .block-img3{
-        margin-right: 50px;
+        margin-top: 30px;
     }
     .block-text3 h1{
     font-size: 13px;
@@ -476,8 +439,8 @@ margin-bottom: 22px;
     
     /*sec4*/
     .block-text4 h2{
-    font-size: 30px;
-    margin-bottom: 10px;
+        font-size: 30px;
+        margin-bottom: 10px;
     }
     .bl-text4{
         display: flex;
@@ -539,6 +502,9 @@ margin-bottom: 22px;
         margin-top: 30px;
         margin-bottom: 0px;
     }
+    .fle55{
+        width: 100%;
+    }
     .block-text5 h1{
         font-size: 30px;
         margin-bottom: 10px;
@@ -548,13 +514,12 @@ margin-bottom: 22px;
         line-height: 20px;
         margin-bottom: 15px;
     }
-
     .fle555{
         flex-direction: column;
-        height: 130px;
+        height: 150px;
         padding-left: 16px;
         padding-right: 12px;
-        padding-top: 7px;
+        padding-top: 10px;
         padding-bottom: 15px;
         margin-bottom: 20px;
     }
@@ -563,7 +528,7 @@ margin-bottom: 22px;
         height: 40px;
     }
     .block-text55{
-        margin-left: 8px;
+        margin-left: 35px;
     }
     .block-text55 h5{
         font-size: 16px;
@@ -658,6 +623,15 @@ margin-bottom: 22px;
         width: 100px;
     }
 
+    /*sec8*/
+    .fle8{
+        width: 340px;
+        margin-bottom: 80px;
+        margin-top: 30px;
+    }
+    .fle-nav{
+        display: none;
+    }
 }
 
 
