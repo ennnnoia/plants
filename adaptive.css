@@ -5,9 +5,9 @@
     #durachok{
         display: none;
     }
-    #mm{
+    /*#mm{
         display: none;
-    }
+    }*/
 }
 
 
@@ -52,12 +52,6 @@
 
 
 @media screen and (max-width: 768px) {
-    .fle1{
-        flex-direction: column;
-    }
-    #tvar{
-        width: 200px;
-    }
     .navbar{
         min-height: 100px;
     }
@@ -77,14 +71,38 @@
     padding: 8px 12px;
     font-size: 12px;
     }
-    
 
-        /*sec2*/
+
+    /*sec1*/
+    .fle1{
+        flex-direction: row;
+    }
+    #tvar{
+        width: 300px;
+        margin-top: 76px;
+    }
+    .block-text{
+        max-width: 55%;
+        margin-top: 76px;
+    }
+    .block-text h2{
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .btn1 {
+        margin-bottom: 40px;
+    }
+    .block-img{
+        margin-left: 20px;
+    }
+
+    /*sec2*/
     .fle2{
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 20px;
-        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-top: 20px;
     }
     .block-text2{
         margin-right: 0px;
@@ -105,6 +123,184 @@
         margin-right: 7px;
         max-width: 200px;
     }
+
+    /*sec3*/
+    .fle3{ 
+        justify-content: center;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .block-img3{
+        display: none;
+        margin-right: 0px;
+        width: 0%;
+    }
+    .block-text3 {
+        width: 83%;
+    }
+    .btn3{
+        cursor: pointer;
+        padding: 12px 22px;
+        width: 140px;
+        height: 50px;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    /*sec4*/
+    .block-text4 h2{
+        margin-bottom: 20px;
+    }
+    .bl-text4{
+        margin: 30px auto;
+    }
+
+    /*sec5*/
+    .fle5{
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .fle55{
+        display: flex;
+        flex-direction: column;
+    }
+    .fle555{
+        display: flex;
+        flex-direction: column;
+        height: 204px;
+        background-color: #066F14;
+        padding-left: 31px;
+        padding-right: 27px;
+        padding-top: 18px;
+        padding-bottom: 30px;
+        margin-bottom: 43px;
+    }
+    .fle5555{
+        display: flex;
+        flex-direction: row;
+    }
+    .block-img55{
+        width: 60px;
+    height: 60px;
+    }
+    .block-img5{
+        margin-left: 0px;
+    }
+
+    
+    /*section6*/
+    .e6{
+    width: 710px;
+    }
+    .fon{
+    width: 710px;
+    }
+    .fle6{
+    width: 450px;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+    }
+    .block-text6 p{
+        margin-bottom: 20px;
+    }
+    .img-abs{
+        top: -35px;
+        left: 490px;
+    }
+    .input{
+        padding: 6px 6px 6px 20px;
+        min-width: 430px;
+        min-height: 50px;
+    }
+    input {
+        padding: 8px 8px 8px 20px;
+        min-height: 50px;
+    }
+    .btn2 {
+        padding: 10px 16px;
+    }
+
+    /*sec7*/
+    .fle7{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+
+    /*sec8*/
+    .fle8{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 112px;
+    justify-content: space-between;
+}
+.fle81{
+    display: flex;
+    flex-direction: column;
+    width: 308px;
+    margin-right: 201px;
+}
+.fle8 h1{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+color: #1A1A1A;
+margin-bottom: 24px;
+}
+.fle8 p{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+color: #5A5A5A;
+margin-bottom: 16px;
+}
+.fle81 p{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+color: #5A5A5A;
+margin-bottom: 22px;
+}
+.fle-img img{
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
+.fle82{
+    display: flex;
+    flex-direction: column;
+    width: 124px;
+    margin-right: 128px;
+}
+.fle83{
+    display: flex;
+    flex-direction: column;
+    width: 107px;
+    margin-right: 128px;
+}
+.fle84{
+    display: flex;
+    flex-direction: column;
+    width: 158px;
+}
+    
 }
 
 
