@@ -665,24 +665,25 @@
     /*sec1*/
     .block-text{
         max-width: 100%;
+        margin-top: 0px;
     }
     .block-text h2{
         font-size: 30px;
         line-height: 30px;
     }
     .block-text p{
-        font-size: 10px;
+        font-size: 15px;
     }
     .btn1 {
         font-size: 10px;   
         margin-top: 10px;
-        padding: 10px 10px;
+        padding: 4px 8px;
         width: 80px;
-        height: 40px;
+        height: 30px;
         margin-bottom: 10px;
     }
     .flex-txt44{
-        margin-right: 7px;
+        margin-right: 10px;
     }
     .flex-txt44 h3{
         font-size: 20px;
@@ -691,9 +692,50 @@
     font-size: 10px;
     }
 
+    /*sec2*/
+    .fle2{
+        min-height: 150px;
+        margin-top: 0px;
+    }
+
+    /*sec3*/
+    .block-text3{
+        padding-right: 0px;
+    }
+    .block-text3 h1{
+        margin-top: 0px;
+    }
+    .block-text3 h2{
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 18px;
+    }
+    .block-text3 p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+    }
+    .block-text3 h3{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .btn3{
+        padding: 10px 10px;
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 23px;
+        margin-top: 20px;
+    }
+    .btn3:hover{
+        width: 150px;
+        height: 50px;
+    }
+
     /*sec4*/
     .block-text4 h2{
         font-size: 20px;
+        line-height: 30px;
         margin-bottom: 10px;
     }
     .bl-text4{
