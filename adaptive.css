@@ -44,7 +44,7 @@
         margin-bottom: 40px;
     }
     .flex-txt44{
-        margin-right: 30px;
+        margin-right: 22px;
     }   
 
     /*sec2*/
@@ -57,6 +57,14 @@
     .block-text2{
         width: 600px;
         margin-right: 0px;
+    }
+    .block-text2 p{
+        margin-bottom: 10px;
+    }
+    #arr{
+        transform: rotate(90deg);
+        transition-property: transform;
+        transition-duration: 1s;
     }
 
     .fle4{
@@ -250,7 +258,7 @@
         width: 80%;
     }
    
-    /*section6*/
+    /*sec6*/
     .e6{
     width: 710px;
     }
@@ -329,9 +337,15 @@
     .navbar-logo{
     font-size: 20px;
     }
-    button{
-    padding: 8px 12px;
-    font-size: 12px;
+    .navbar-list{
+        display: none;
+    }
+    .btn11{
+        display: none;
+    }
+    .img-menu{
+        display: block;
+        width: 40px;
     }
 
     /*sec1*/
@@ -360,7 +374,7 @@
     margin-bottom: 20px;
     }
     .flex-txt44{
-        margin-right: 20px;
+        margin-right: 30px;
     }
     .flex-txt44 h3{
         font-size: 23px;
@@ -401,7 +415,7 @@
     }
     .block-img2 img{
         margin-right: 7px;
-        max-width: 110px;
+        max-width: 100px;
     }
     
     /*sec3*/
@@ -506,7 +520,8 @@
         width: 100%;
     }
     .block-text5 h1{
-        font-size: 30px;
+        font-size: 25px;
+        line-height: 25px;
         margin-bottom: 10px;
     }
     .block-text5 p{
@@ -636,8 +651,18 @@
 
 
 
+@media screen and (max-width: 375px){
+    /*sec2*/
+    #pl{
+        display: none;
+    }
+}
 
 @media screen and (max-width: 320px){
+    .img-menu{
+        width: 30px;
+    }
+    /*sec1*/
     .block-text{
         max-width: 100%;
     }
@@ -654,7 +679,7 @@
         padding: 10px 10px;
         width: 80px;
         height: 40px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .flex-txt44{
         margin-right: 7px;
@@ -665,9 +690,198 @@
     .flex-txt44 p{
     font-size: 10px;
     }
-    .navbar-list a{
-        margin-right: 30px;
+
+    /*sec4*/
+    .block-text4 h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .bl-text4{
+        width: 250px;
+        margin: 10px auto;
+    }
+    .bl-text4 h5{
+        font-size: 14px;
+        margin-right: 15px;
+    }
+    .bl-text4 p{
+        font-size: 12px;
+        line-height: 12px;
+        margin-right: 10px;
+    }
+    .couple{
+        gap: 15px;
+    }
+    .kart1{
+        width: 120px;
+        height: 130px;
+    }
+    .kart2{
+        width: 120px;
+        height: 130px;
+    }
+    .kart3{
+        width: 120px;
+        height: 130px;
+    }
+    .kart4{
+        width: 120px;
+        height: 130px;
+    }
+    .r{
+        width: 60px;
+        height: 73px;
+        margin-bottom: 3px;
+    }
+    .fle4 p{
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 0px;
+    }
+    .fle4 h5{
+        font-size: 12px;
+        line-height: 12px;
+        margin-top: 3px;
+    }
+
+    /*sec5*/
+    .fle5{
+        height: 100%;
+        margin-top: 25px;
+    }
+    .fle55{
+        width: 100%;
+    }
+    .block-text5 h1{
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .block-text5 p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .fle555{
+        flex-direction: column;
+        height: 150px;
+        padding-left: 16px;
+        padding-right: 12px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+    .block-img55{
+        width: 20px;
+        height: 20px;
+    }
+    .block-text55{
+        margin-left: 30px;
+    }
+    .block-text55 h5{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .block-text55 p{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .bl-text5 p{
+        margin-top: 18px;
+    }
+
+    /*sec6*/
+    .e6{
+        width: 260px;
+        height: 230px;
+    }
+    .fon{
+        height: 190px;
+        width: 250px;
+    }
+    .fle6{
+        width: 230px;
+        height: 190px;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    .block-text6 h1{
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 7px;
+    }
+    .block-text6 p{
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 20px;
+    }
+    .input{
+        padding: 3px 3px 3px 10px;
+        min-width: 160px;
+        min-height: 30px;
+        font-size: 14px;
+    }
+    input {
+        padding: 3px 3px 3px 10px;
+        min-height: 30px;
+    }
+    input::placeholder{
+        font-size: 14px;
+    }
+
+    .btn2 {
+        padding: 4px 4px;
         font-size: 10px;
+        width: 60px;
+        height: 25px;
+        animation: none;
+    }
+
+    /*sec7*/
+    .fle7{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .block-text7{
+        width: 250px;
+    }
+    .block-text7 h1{
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .block-text7 p{
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 20px;
+    }
+    .block-img7 img{
+        width: 80px;
+    }
+
+    /*sec8*/
+    .fle8{
+        width: 250px;
+        margin-bottom: 50px;
+        margin-top: 0px;
+    }
+    .fle81{
+        width: 250px;
+    }
+    .fle8 h1{
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .fle81 p{
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 20px;
+    }
+    .fle-img img{
+        width: 40px;
+        height: 40px;
+        margin-right: 14px;
     }
 
 }
