@@ -1,10 +1,139 @@
-@media screen and (max-width: 1126px) {
+@media screen and (max-width: 1270px) {
+    /*sec1
+    .block-img{
+        width: 50%;
+        margin-left: 87px;
+    }*/
+    .block-text h2{
+        font-size: 60px;
+        line-height: 70px;
+        margin-bottom: 40px;
+    }
+    
+    /*sec2*/
+    .block-text2 img{
+        margin-left: 20px;
+    }
+    .block-img2 img{
+        margin-right: 7px;
+        max-width: 150px;
+    }
+
+    /*sec7*/
     #neadaptirovan{
         display: none;
     }
     #durachok{
         display: none;
     }
+
+        /*sec8*/
+        .fle8{
+            justify-content: space-between;
+            width: auto;
+        }
+        .fle-nav{
+            flex-direction: column;
+            /*margin-right: 80px;*/
+        }
+        .fle-nav p{
+            display: none;
+            margin-right: 100px;
+        }
+        .fle-plants{
+            width: auto;
+            margin-right: 50px;
+        }
+        .fle81{
+        margin-right: 0px;
+        }
+        .fle82{
+            width: auto;
+            margin-right: 0px;
+        }
+        .fle83{
+            width: auto;
+            margin-right: 0px;
+        }
+        .fle84{
+            width: 100px;
+        }
+    
+}
+
+
+
+@media screen and (max-width: 1126px) {
+    .block-text{
+        margin-top: 50px;
+    }
+    /*sec5*
+    .block-img5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+    }
+    .block-img5 img{
+        width: 80%;
+    }*/
+
+    /*sec5*/
+    .fle5{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .block-text5 p{
+        margin-bottom: 30px;
+    }
+    .fle55{
+        width: 70%;
+    }
+    .fle555{
+        display: flex;
+        flex-direction: column;
+        padding-left: 31px;
+        padding-right: 27px;
+        padding-top: 18px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .block-img5{
+        width: 70%;
+    }
+
+    /*sec4*/
+    .fle4{
+        justify-content: center;
+    }
+
+     /*sec5*/
+     .block-img5{
+        width: 40%;
+        display: flex;
+        align-items: center;
+    }
+    .block-img5 img{
+        width: 100%;
+    }
+    /*sec6*
+    .e6{
+        width: auto;
+        }
+        .fon{
+            width: 90%;
+            height: 100%;
+            }
+            .fle6{
+            width: 70%;
+            height: auto;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            margin-left: 30px;
+            }*/
 }
 
 
@@ -27,13 +156,13 @@
             margin-right: 50px;
             font-size: 15px;
         }
-
+    /*sec1*/
     .block-text{
         margin-top: 50px;
     }
     .block-text h2{
-        font-size: 56px;
-        line-height: 60px;
+        font-size: 48px;
+        line-height: 58px;
     }
     .btn1 {
         font-size: 16px;   
@@ -83,19 +212,6 @@
     #derevo{
         width: 100%;
     }
-    .block-text3{
-        padding-right: 40px;
-    }
-
-    /*sec5*/
-    .block-img5{
-        width: 45%;
-        display: flex;
-        align-items: center;
-    }
-    #mm{
-        width: 100%;
-    }
 
     /*sec6*/
     .e6{
@@ -109,21 +225,55 @@
     .img-abs{
         left: 650px;
     }
+}
 
-    /*sec8*/
-    .fle8{
-        width: 930px;
-    }
-    .fle81{
-        margin-right: 100px;
-    }
-    .fle82{
-        margin-right: 75px;
-    }
-    .fle83{
-        margin-right: 65px;
+
+
+@media screen and (max-width: 1023px) {
+    
+}
+
+
+@media screen and (max-width: 980px) {
+    /*sec6*/
+    .e6{
+        width: auto;
+        }
+        .fon{
+        width: auto;
+        height: auto;
+        }
+        .fle6{
+        width: 60%;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        margin-left: 30px;
+        }
+        .block-text6 p{
+            margin-bottom: 20px;
+        }
+        .img-abs{
+            top: -35px;
+            left: 450px;
+        }
+        .input{
+            padding: 6px 6px 6px 20px;
+            min-width: 430px;
+            min-height: 50px;
+        }
+        input {
+            padding: 8px 8px 8px 20px;
+            min-height: 50px;
+        }
+        .btn2 {
+            padding: 10px 16px;
+        }
+    .block-text6 p{
+        width: 90%;
     }
 }
+
 
 
 @media screen and (max-width: 768px) {
@@ -137,21 +287,8 @@
     }
 
     /*sec1*/
-    .fle1{
-        flex-direction: row;
-    }
     #tvar{
-        width: 300px;
         margin-top: 76px;
-    }
-    .block-text{
-        max-width: 55%;
-        margin-top: 76px;
-    }
-    .block-text h2{
-        font-size: 50px;
-        line-height: 50px;
-        margin-bottom: 20px;
     }
     .btn1 {
         margin-bottom: 40px;
@@ -159,11 +296,23 @@
     .block-img{
         margin-left: 20px;
     }
+    .block-text h2{
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
     .flex-44{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+    }
+    .flex-txt44 h3{
+        font-size: 30px;
+        line-height: 39px;
+    }
+    .flex-txt44 p{
+        font-size: 18px;
     }
 
     /*sec2*/
@@ -230,66 +379,12 @@
     }
 
     /*sec5*/
-    .fle5{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    .block-text5 p{
-        margin-bottom: 30px;
-    }
-    .fle55{
-        width: 90%;
-    }
-    .fle555{
-        display: flex;
-        flex-direction: column;
-        height: 185px;
-        padding-left: 31px;
-        padding-right: 27px;
-        padding-top: 18px;
-        padding-bottom: 20px;
-        margin-bottom: 20px;
-    }
     .block-img5{
-        width: 80%;
+        margin-left: 0px;
+        width: 0px;
     }
-   
-    /*sec6*/
-    .e6{
-    width: 710px;
-    }
-    .fon{
-    width: 710px;
-    }
-    .fle6{
-    width: 450px;
-    height: 200px;
-    margin-top: 30px;
-    margin-bottom: 60px;
-    margin-left: 30px;
-    }
-    .block-text6 p{
-        margin-bottom: 20px;
-    }
-    .img-abs{
-        top: -35px;
-        left: 490px;
-    }
-    .input{
-        padding: 6px 6px 6px 20px;
-        min-width: 430px;
-        min-height: 50px;
-    }
-    input {
-        padding: 8px 8px 8px 20px;
-        min-height: 50px;
-    }
-    .btn2 {
-        padding: 10px 16px;
+    #mm{
+        display: none;
     }
 
     /*sec7*/
@@ -298,45 +393,12 @@
     margin-bottom: 50px;
     }
 
-    /*sec8*/
-    .fle8{
-        width: 700px;
-    }
-    .fle-nav{
-        flex-direction: column;
-        margin-right: 80px;
-    }
-    .fle-nav p{
-        display: none;
-        margin-right: 100px;
-    }
-    .fle81{
-    width: 308px;
-    margin-right: 112px;
-    }
-    .fle82{
-        width: 124px;
-        margin-right: 0px;
-    }
-    .fle83{
-        width: 107px;
-        margin-right: 0px;
-    }
-    .fle84{
-        width: 100px;
-    }
     
 }
 
 
 
-@media screen and (max-width: 425px) {
-    .navbar{
-        min-height: 90px;
-    }
-    .navbar-logo{
-    font-size: 20px;
-    }
+@media screen and (max-width: 700px) {
     .navbar-list{
         display: none;
     }
@@ -349,40 +411,6 @@
     }
 
     /*sec1*/
-    .fle1{
-        min-height: 350px;
-    }
-    .block-text{
-        margin-top: 10px;
-        max-width: 100%;
-    }
-    .block-text h2{
-        font-size: 40px;
-        line-height: 40px;
-        margin-bottom: 10px;
-    }
-    .block-text p{
-    font-size: 14px;
-    line-height: 20px;
-    }
-    .btn1 {
-        font-size: 15px;
-    margin-top: 20px;
-    padding: 10px 10px;
-    width: 120px;
-    height: 40px;
-    margin-bottom: 20px;
-    }
-    .flex-txt44{
-        margin-right: 30px;
-    }
-    .flex-txt44 h3{
-        font-size: 23px;
-    }
-    .flex-txt44 p{
-    font-size: 15px;
-    }
-    
     #tvar{
         display: none;
         width: 0px;
@@ -392,32 +420,82 @@
         margin-left: 0px;
         margin-bottom: 0px;
     }
+    .block-text{
+        max-width: 90%;
+        max-height: auto;
+    }
+    .flex-txt44{
+        justify-content: space-between;
+        max-width: 80%;
+    }
 
+    
     /*sec2*/
-    .fle2{
-        margin-bottom: 0px;
-        margin-top: 30px;
+    .block-img2 img{
+        max-width: 160px;
     }
     .block-text2{
-        width: 100%;
-        margin-top: 10px;
+        width: auto;
     }
-    .block-text2 h2{
-        font-size: 30px;
-        line-height: 30px;
-        margin-bottom: 10px;
+
+    /*sec6*/
+    .img-abs{
+        display: none;
     }
-    .block-text2 p{
-    font-size: 14px;
+    .fle6{
+        width: 90%;
     }
-    .block-text2 img{
-        margin-left: 9px;
+    /*sec8*/
+    .fle-plants{
+        margin-right: 30px;
     }
+}
+
+
+
+@media screen and (max-width: 630px) {
+    /*sec4*/
+    .kart1{
+        width: 190px;
+        height: 200px
+    }
+    .kart2{
+        width: 190px;
+        height: 200px
+    }
+    .kart3{
+        width: 190px;
+        height: 200px
+    }
+    .kart4{
+        width: 190px;
+        height: 200px
+    }
+    .r{
+        width: 100px;
+        height: 113px;
+        margin-bottom: 5px;
+    }
+    .fle4 p{
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .fle4 h5{
+        font-size: 11px;
+        margin-top: 3px;
+    }
+}
+
+
+@media screen and (max-width: 572px) {
+    /*sec1*/
+    .block-text{
+        max-width: 100%;
+    }
+    /*sec2*/
     .block-img2 img{
-        margin-right: 7px;
-        max-width: 100px;
+        max-width: 110px;
     }
-    
     /*sec3*/
     .fle3{ 
         flex-direction: column;
@@ -450,88 +528,19 @@
         font-size: 14px;
         margin-top: 20px;
     }
-    
-    /*sec4*/
-    .block-text4 h2{
-        font-size: 30px;
-        margin-bottom: 10px;
-    }
-    .bl-text4{
-        display: flex;
-        justify-content: center;
-        width: 268px;
-        margin: 10px auto;
-    }
-    .bl-text4 h5{
-    font-size: 16px;
-    margin-right: 24px;
-    }
-    .bl-text4 p{
-    font-size: 15px;
-    line-height: 18px;
-    margin-right: 24px;
-    }
-    .kart1{
-        width: 170px;
-        height: 180px;
-    }
-    .kart2{
-        width: 170px;
-        height: 180px;
-    }
-    .kart3{
-        width: 170px;
-        height: 180px;
-    }
-    .kart4{
-        width: 170px;
-        height: 180px;
-    }
-    .r{
-        width: 80px;
-        height: 93px;
-        margin-bottom: 3px;
-    }
-    .fle4 p{
-        font-size: 15px;
-        margin-bottom: 0px;
-    }
-    .fle4 h5{
-        font-size: 11px;
-        margin-top: 3px;
-    }
-    .btn4{
-        padding: 8px 10px;
-        width: 110px;
-        height: 40px;
-        font-size: 14px;
-        margin-top: 15px;
-    }
-
     /*sec5*/
     .fle5{
         justify-content: center;
         align-items: center;
-        height: 100%;
+        width: auto;
         margin-top: 30px;
         margin-bottom: 0px;
     }
     .fle55{
-        width: 100%;
-    }
-    .block-text5 h1{
-        font-size: 25px;
-        line-height: 25px;
-        margin-bottom: 10px;
-    }
-    .block-text5 p{
-        font-size: 14px;
-        line-height: 20px;
-        margin-bottom: 15px;
+        width: 80%;
     }
     .fle555{
         flex-direction: column;
-        height: 150px;
         padding-left: 16px;
         padding-right: 12px;
         padding-top: 10px;
@@ -539,50 +548,14 @@
         margin-bottom: 20px;
     }
     .block-img55{
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
     }
-    .block-text55{
-        margin-left: 35px;
-    }
-    .block-text55 h5{
-        font-size: 16px;
-        margin-top: 5.5px;
-    }
-    .block-text55 p{
-        font-size: 13px;
-        margin-top: 6px;
-    }
-    .bl-text5 p{
-        font-size: 14px;
-        line-height: 20px;
-        margin-top: 18px;
-    }
-    .block-img5{
-        margin-left: 0px;
-        width: 0px;
-    }
-    #mm{
-        display: none;
+    .block-img55 img{
+        width: 100%;
     }
 
-
-    /*seс6*/
-    .e6{
-        width: 360px;
-        height: 240px;
-    }
-    .fon{
-        height: 220px;
-        width: 360px;
-    }
-    .fle6{
-        width: 320px;
-        height: 240px;
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-bottom: 20px;
-    }
+    /*sec6*/
     .block-text6 h1{
         font-size: 25px;
         line-height: 25px;
@@ -592,9 +565,6 @@
         font-size: 14px;
         line-height: 20px;
         margin-bottom: 15px;
-    }
-    .img-abs{
-        display: none;
     }
     .input{
         padding: 5px 5px 5px 15px;
@@ -619,8 +589,205 @@
 
     /*sec7*/
     .fle7{
+        margin-top: 0px;
+    }
+}
+
+
+@media screen and (max-width: 460px) {
+    /*sec4*/
+    .kart1{
+        width: 170px;
+        height: 180px;
+    }
+    .kart2{
+        width: 170px;
+        height: 180px;
+    }
+    .kart3{
+        width: 170px;
+        height: 180px;
+    }
+    .kart4{
+        width: 170px;
+        height: 180px;
+    }
+    .r{
+        width: 80px;
+        height: 93px;
+        margin-bottom: 3px;
+    }
+    .btn4{
+        padding: 8px 10px;
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .couple{
+        display: flex;
+        gap: 14px;
+    }
+
+    /*sec8*/
+        .fle8{
+            margin-bottom: 80px;
+            margin-top: 30px;
+        }
+        .fle-nav{
+            display: none;
+        }
+
+}
+
+
+@media screen and (max-width: 425px) {
+    .navbar{
+        min-height: 90px;
+    }
+    .navbar-logo{
+    font-size: 20px;
+    }
+
+    /*sec1*/
+    .fle1{
+        min-height: /*350px*/ auto;
+    }
+    .block-text{
+        margin-top: 10px;
+    }
+    .block-text h2{
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .block-text p{
+    font-size: 14px;
+    line-height: 20px;
+    }
+    .btn1 {
+        font-size: 15px;
+    margin-top: 20px;
+    padding: 10px 10px;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 20px;
+    }
+    .flex-txt44{
+        margin-right: 30px;
+    }
+    .flex-txt44 h3{
+        font-size: 23px;
+    }
+    .flex-txt44 p{
+    font-size: 15px;
+    }
+
+    /*sec2*/
+    .fle2{
+        margin-bottom: 0px;
         margin-top: 30px;
-        margin-bottom: 50px;
+    }
+    .block-text2{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .block-text2 h2{
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .block-text2 p{
+    font-size: 14px;
+    }
+    .block-text2 img{
+        margin-left: 9px;
+    }
+    .block-img2 img{
+        margin-right: 7px;
+        max-width: 100px;
+    }
+    
+    /*sec4*/
+    .couple{
+        gap: 8px;
+    }
+    .block-text4 h2{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .bl-text4{
+        display: flex;
+        justify-content: center;
+        width: 268px;
+        margin: 10px auto;
+    }
+    .bl-text4 h5{
+    font-size: 16px;
+    margin-right: 24px;
+    }
+    .bl-text4 p{
+    font-size: 15px;
+    line-height: 18px;
+    margin-right: 24px;
+    }
+
+    /*sec5*/
+    .fle5{
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .fle55{
+        width: 100%;
+    }
+    .block-text5 h1{
+        font-size: 25px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    .block-text5 p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .fle555{
+        flex-direction: column;
+        padding-left: 16px;
+        padding-right: 12px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+    .block-img55{
+        width: 60px;
+        height: 60px;
+    }
+    .block-img55 img{
+        width: 100%;
+    }
+    .block-text55{
+        margin-left: 35px;
+    }
+    .block-text55 h5{
+        font-size: 16px;
+        margin-top: 5.5px;
+    }
+    .block-text55 p{
+        font-size: 13px;
+        margin-top: 6px;
+    }
+    .bl-text5 p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 18px;
+    }    
+
+    /*sec7*/
+    .fle7{
+        margin-top: 10px;
+        margin-bottom: 40px;
     }
     .block-text7{
         width: 360px;
@@ -637,34 +804,23 @@
     .block-img7 img{
         width: 100px;
     }
-
-    /*sec8*/
-    .fle8{
-        width: 340px;
-        margin-bottom: 80px;
-        margin-top: 30px;
-    }
-    .fle-nav{
-        display: none;
-    }
 }
 
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 400px){
     /*sec2*/
     #pl{
         display: none;
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 390px){
     .img-menu{
         width: 30px;
     }
     /*sec1*/
     .block-text{
-        max-width: 100%;
         margin-top: 0px;
     }
     .block-text h2{
@@ -788,7 +944,6 @@
 
     /*sec5*/
     .fle5{
-        height: 100%;
         margin-top: 25px;
     }
     .fle55{
@@ -806,7 +961,6 @@
     }
     .fle555{
         flex-direction: column;
-        height: 150px;
         padding-left: 16px;
         padding-right: 12px;
         padding-top: 10px;
@@ -814,8 +968,8 @@
         margin-bottom: 20px;
     }
     .block-img55{
-        width: 20px;
-        height: 20px;
+        width: 50px;
+        height: 50px;
     }
     .block-text55{
         margin-left: 30px;
@@ -860,13 +1014,14 @@
     }
     .input{
         padding: 3px 3px 3px 10px;
-        min-width: 160px;
+        min-width: 110px;
         min-height: 30px;
         font-size: 14px;
     }
     input {
         padding: 3px 3px 3px 10px;
         min-height: 30px;
+        width: 100px;
     }
     input::placeholder{
         font-size: 14px;
@@ -877,7 +1032,6 @@
         font-size: 10px;
         width: 60px;
         height: 25px;
-        animation: none;
     }
 
     /*sec7*/
@@ -904,7 +1058,7 @@
 
     /*sec8*/
     .fle8{
-        width: 250px;
+        /*width: 250px;*/
         margin-bottom: 50px;
         margin-top: 0px;
     }
